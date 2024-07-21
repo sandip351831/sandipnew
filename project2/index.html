@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipcart clone</title>
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="responsive.css"> -->
+<style>
+    @media screen and (max-width:1216px){
+    body{
+        background-color: red;
+    }
+
+    .container{
+        height: 1783px;
+        /* margin-top: 100px; */
+    }
+    nav{
+        flex-direction: column;
+    }
+    header{
+        height: 200px;
+    }
+     .logo{
+        justify-content: center;
+        margin: 12px auto;
+     }
+     nav ul{
+        justify-content: center;
+     }
+     .search{
+        justify-content: center;
+     }
+     .search input{
+        margin-left: 10px;
+     }
+     .sider{
+        margin-left: 20px;
+        margin-right: 20px;
+     }
+     
+
+     
+    .sider img{
+        justify-content: center;
+        align-items: center;
+        margin-top: 205px;
+    }
+    
+    /* .card-item{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .All-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         flex-wrap: wrap;
+    }
+    
+    
+    
+
+
+    
+
+}
+/* @media screen and (max-width:376px){
+    .card{
+       margin: 40px; 
+    }
+} */
+
+
+
+
+:root {
+    --main-bg-color: blue;
+}
+  body{
+    background-color: aqua;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+footer{
+    height: 50px;
+    color: white;
+    background-color: var(--main-bg-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    width: 100vw;
+    margin-bottom: 200px;
+    height: 58px;
+    background-color: var(--main-bg-color);
+    border: 2px solid red;
+    position: fixed;
+    z-index: 3;
+}
+nav li a{
+    color: rgb(206, 173, 173);
+    text-decoration: none;
+}
+nav li a:hover{
+   color: black;
+   font-style: bold;
+   font-weight: bold;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 25px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+
+}
+ logo img{
+ width: 88px;
+ padding: 0 25px;
+}
+.container{
+        height: 900px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0 12px 0 100px;
+    padding: 0 15px;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-item img{
+    height: 180px;
+}
+.sider img{
+    display: flex;
+    height: 396px;
+    width: 600px;
+    margin-top: 61px;
+}
+
+.my-1{
+    font-size: 13px;
+    margin: 7px;    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+.my-2{
+    margin: 5px 0px;
+}
+.card{
+    /* display:inline-block; 
+    margin: 5px;
+    position: relative;
+    left: 80px;
+    padding: 10px; */
+    max-width: 40vh;
+    margin: 12px;
+    /* display: inline-block;
+    justify-content: center;
+    align-items: center;
+     */
+
+
+}
+.All-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap;
+}
+
+
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo1.PNG" height="55px" width="88px">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" alt="" placeholder="Search here">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="sider">
+                <img src="ecommerce.JPG">
+            </div>
+            <div class="my-1">Buy this products and enjoy function
+            </div>
+            <div class="All-card">
+            <div class="card">
+                
+                <div class="card-item">
+                    <img src="item1.png">
+                </div>
+                <div class="lines">
+                    <p class="text-center my-2">hp laptop</p>
+                    <p class="text-center my-2">min 20% off</p>
+                    <p class="text-center my-2">Grab now</p>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                
+                <div class="card-item">
+                    <img src="item1.PNG">
+                </div>
+                <div class="lines">
+                    <p class="text-center my-2">hp laptop</p>
+                    <p class="text-center my-2">min 20% off</p>
+                    <p class="text-center my-2">Grab now</p>
+                </div>
+            </div>
+
+            <div class="card">
+            
+                <div class="card-item">
+                    <img src="item1.PNG">
+                </div>
+                <div class="lines">
+                    <p class="text-center my-2">hp laptop</p>
+                    <p class="text-center my-2">min 20% off</p>
+                    <p class="text-center my-2">Grab now</p>
+                </div>
+            </div>
+
+            <div class="card">
+                
+                <div class="card-item">
+                    <img src="item1.PNG">
+                </div>
+                <div class="lines">
+                    <p class="text-center my-2">hp laptop</p>
+                    <p class="text-center my-2">min 20% off</p>
+                    <p class="text-center my-2">Grab now</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; mycart.com</p>
+    </footer>
+</body>
+
+</html>
